@@ -21,7 +21,7 @@ Vue.component(Picker.name, Picker)
 #### Picker Props
 |Props | Description | Type | Default | Note|
 |----|-----|------|------|------|
-|v-modelwhether picker is visible|Boolean|`false`|-|
+|v-model|whether picker is visible|Boolean|`false`|-|
 |data|data source|Array<{value, lable, ...}>[]|`[]`|-|
 |cols|number of columns|Number|`1`|-|
 |default-index|initial selected option index of each column|Array|`[]`|-|
